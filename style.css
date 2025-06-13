@@ -1,0 +1,73 @@
+body{
+    background-image: url(./items/freepik__upload__75240.png);
+    background-position: center;
+    background-size: cover;
+}
+#main{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: #80808090;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#main>h1{
+    padding:0;
+}
+#main>p{
+    padding: 0;
+    font-size: 1rem;
+}
+#project-container{
+   display: grid;
+   grid-template:1fr 1fr/50% 50%;
+   gap: 50px;
+   height: auto;
+   background-color:#80808090;
+   margin:0px 10px 10px 10px;
+   padding: 20px;
+   border-radius: 20px;
+}
+.item{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    border-radius:20px;
+}
+.anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anchor>img
+{
+    width: 80%; 
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+@media (max-width:600px){
+    #main{
+        font-size:10px;
+    }
+    #main>p{
+        font-size: 8px;
+    }
+    #project-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    }
+    .anchor>img{
+    width: 100%;
+    }
+    .item{
+    font-size: 0.5em;
+    }
+}

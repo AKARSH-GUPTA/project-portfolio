@@ -1,0 +1,50 @@
+ body{
+   background-image:url(./assets/images/1314439.jpeg);
+   background-position: center;
+   background-size:cover;
+   background-repeat:no-repeat;
+    background-color: rgb(151, 30, 30);
+  }
+  h1{
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  .glass{
+     font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+    text-align: center;
+  }
+  
+  img{
+    width: 376px;
+    height: 668px;
+    padding:5px;
+   border:5px solid rgb(170, 151, 151);
+   border-radius: 10px;  
+  }
+  @media (max-width:700px){
+    body{
+      background-image: url(./assets/images/freepik__adjust__33634.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat:no-repeat;
+      margin: 0px;
+      padding: 5px;
+    }
+    .glass{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8em;
+    }
+    img{
+      width: 320px;
+      height: auto;
+    }
+  }
+
+ 
